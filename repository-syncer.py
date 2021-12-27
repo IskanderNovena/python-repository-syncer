@@ -18,7 +18,7 @@ def sync_repo(source, destination):
     repo_dir = source.rsplit('/', 1)[-1]
     os.chdir(settings['workingDirectory'])
     try:
-        os.system('git clone --bare {}ass'.format(source))
+        os.system('git clone --bare {}'.format(source))
         os.chdir('./{}'.format(repo_dir))
         os.system('git push --mirror {}'.format(destination))
         os.chdir(settings['workingDirectory'])

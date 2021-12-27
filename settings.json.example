@@ -1,0 +1,13 @@
+{
+  "repositories": [
+    {
+      "source": "git@gitlab.com:IskanderNovena/python-repository-syncer.git",
+      "destination": "git@github.com:IskanderNovena/python-repository-syncer.git"
+    },
+    {
+      "source": "<next source repo url>",
+      "destination": "<next destination repo url>"
+    }
+  ],
+  "workingDirectory": "/home/user/sync"
+}

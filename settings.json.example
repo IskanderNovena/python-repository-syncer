@@ -9,5 +9,5 @@
       "destination": "<next destination repo url>"
     }
   ],
-  "workingDirectory": "/mnt/c/Users/sbrozius/Git/Sync"
+  "workingDirectory": "/home/user/sync"
 }

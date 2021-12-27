@@ -1,0 +1,9 @@
+{
+  "repositories": [
+    {
+      "source": "git@gitlab.com:IskanderNovena/python-repository-syncer.git",
+      "destination": "git@github.com:IskanderNovena/python-repository-syncer.git"
+    }
+  ],
+  "workingDirectory": "/mnt/c/Users/sbrozius/Git/Sync"
+}

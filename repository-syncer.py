@@ -43,5 +43,5 @@ for repo in repositories:
     except Exception as error:
         print('\n{}'.format(error))
         print('Processing has been interrupted!')
-    else:
-        print("\nDone!\nAll repositories have been processed.")
+
+print("\nDone!\nAll repositories have been processed.")

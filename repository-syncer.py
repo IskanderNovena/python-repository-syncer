@@ -5,7 +5,7 @@ import subprocess
 
 # Opening the file as part of loading the JSON-file automatically closes the
 # file after loading it. Otherwise, an explicit 'close' has to be done.
-settings = json.load(open('settings.json'))
+settings = json.load(open(os.path.join(os.path.dirname(os.path.realpath(__file__)), 'settings.json')))
 repositories = settings['repositories']
 
 # Check if the given working directory exists
